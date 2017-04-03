@@ -14,8 +14,6 @@
 	font-size:5px;
 	clear:both;
 }
-
-
 #contain{background-color:gray;
 }
 .left{width:750px;
@@ -63,6 +61,7 @@ span.gray{background-color:gray;
 			color:black;
 }
 .clear{clear:both;}
+
 </style>
 </head>
 
@@ -97,32 +96,47 @@ span.gray{background-color:gray;
 		<div class="right1">
 		<h3>&nbsp;这里以后是一个侧栏</h3>
 		</div>
+		<table class="zi">
 		<form action="">
-	<p>请输入邮箱地址：<input type="text" value="这是一个文本输入框"><br/>
-	<br/>
-	<span class="p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱地址请按要求格式输入</span></p>
-	<p>&nbsp;&nbsp;请输入密码:&nbsp;<input type="password" value="请xx输入密码"/></p>
-	<p>请重复输入密码:&nbsp;<input type="password" value="请重复输入密码"/></p>
-		<span class="p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码请为6-16位英文数字</span>
-	<br/>
-	<br/>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别&nbsp;<input type="radio" name="sex" value="male">男
-			<input type="radio" name="sex" value="female">女
-		
-		
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市&nbsp;<select name="city“>
+		<tr>
+	<td style="text-align:right"><label for="inputText">请输入邮箱地址</label></td><td><input type="text" value="这是一个文本输入框"></td>
+	</tr>
+	<tr>
+	<td style="text-align:right"></td><td><span class="p">邮箱地址请按要求格式输入</span></p></td>
+	</tr>
+	<tr>
+	<td style="text-align:right"><label for="password">请输入密码:</label></td><td><input type="password" value="请xx输入密码"/></td>
+	</tr>
+	<tr>
+	<td style="text-align:right"><label for="password2">请重复输入密码:</td><td></label><input type="password" value="请重复输入密码"/></td>
+	</tr>
+    <tr>
+		<td></td>
+		<td><span class="p">密码请为6-16位英文数字</span></td>
+	</tr>
+	<tr>
+	<td style="text-align:right"><label for="inputText">性别:</label></td><td><input type="radio" name="sex" value="male">男</td>
+	</tr>
+	<tr>
+	<td></td><td><input type="radio" name="sex" value="female">女</td>
+	</tr>
+	<tr>
+	<td style="text-align:right">	<label for="inputText">城市:</label></td><td><select >
 									<option value="">中山</option>
 									<option value="">上海</option>
 									<option value="">北京</option>
-									</select></p>
-		
-			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爱好&nbsp;<input type="checkbox" name="xz" value="yd" />运动
+									</select></td>
+		</tr>
+		<tr>
+			<td style="text-align:right">爱好:</td><td><input type="checkbox" name="xz" value="yd" />运动
 			<input type="checkbox" name="xz" value="ys"/>艺术
-			<input type="checkbox" name="xz" value="kx"/>科学
-			<br/>
-			</p>
-	<p><span style="vertical-align:top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人描述 </span><textarea cols="16" rows="8">这是一个多行输入框，输入您的个人描述
-	</textarea></p>
+			<input type="checkbox" name="xz" value="kx"/>科学</td>
+		</tr>
+			<tr>
+	<td style="vertical-align:top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人描述:</td>
+	<td><textarea cols="16" rows="8">这是一个多行输入框，输入您的个人描述
+	</textarea></td>
+	</table>
 	<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  class="right2" type="submit" value="确认提交">
 	</form>	
 </div>
@@ -146,7 +160,6 @@ span.gray{background-color:gray;
 		列表项目三<br/>	
 	</p>
 </div>
-
 <div  class="left">
 		<h3><b>图片</b></h3>
 		
@@ -186,8 +199,6 @@ span.gray{background-color:gray;
 <br/>
 </div>
 	
-
-
 <div class="left">
 		<h3>最后一篇文章一级标题</h3>
 		<h5>文章二级标题</h5>
@@ -235,10 +246,7 @@ span.gray{background-color:gray;
 	<td colspan="2"  bordercolor="LightGrey"><span class="gray">1000</span></td>
 	</tr>
 	</table>
-
 	</div>
-
-
 <div id="footer">
 			<p>版权所有&copy;</p>
 </div>
