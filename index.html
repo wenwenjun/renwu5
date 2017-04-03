@@ -1,0 +1,244 @@
+<html>
+<head>
+<style>
+#header{background-color:black;
+	color:white;
+	padding:5px;
+	text-align:right;
+	font-size:5px;
+}
+#footer{background-color:black;
+	color:white;
+	padding:5px;
+	text-align:center;
+	font-size:5px;
+	clear:both;
+}
+
+
+#contain{background-color:gray;
+}
+.left{width:750px;
+		height:auto;
+		margin:30px;
+		padding:20px;
+		background:#fff;
+		border-bottom:1px solid black;
+		clear:both;
+		
+}
+.left1{border:1px solid black;
+	height:auto;
+	width:178px;
+	margin:3px;
+	text-align:center;
+	float:left;
+	}
+.right{width:30%;
+		height:auto;
+		margin:30px;
+		padding:20px;
+		background:#fff;
+		position:absolute;
+		top:75px;
+		left:825px;
+		float:top;
+}
+.right1{border-left:3px solid  gray;
+}
+.right2{background:blue;
+		color:white;
+		width:250px;
+		height:30px;
+}
+span.p{color:gray;
+		font-size:3px;
+}
+span.black{background-color:black;
+			color:white;
+}
+span.gray{background-color:gray;
+			color:black;
+}
+.clear{clear:both;}
+</style>
+</head>
+
+<body>
+<div id="header"><h3><a href="#">导航链接一</a> &nbsp;&nbsp; <a href="#">导航链接二</a>&nbsp;&nbsp;<a href="#">导航链接三</a>&nbsp;&nbsp;<a href="#">导航链接四</a></h3> 
+</div>
+<div id="contain">
+<br/>
+		<div class="left">
+		<h3>文章一级标题</h3>
+	<h5>文章二级标题</h5>
+	<p>文章作者&nbsp文章发表时间</p>
+	<p>&nbsp&nbsp这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，换行了<br/>
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落
+	<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+	<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491151013162&di=49d09ab4e32eb556ad5369b52e60bda1&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%253D580%2Fsign%3Dadd7c79b5266d0167e199e20a72bd498%2Fb92640086e061d959e77736e7bf40ad162d9ca5e.jpg">
+	<p>&nbsp&nbsp这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落
+	<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+	这是一个很长的段落，这是一个很长的段落。
+</div>
+<div class="right">
+		<div class="right1">
+		<h3>&nbsp;这里以后是一个侧栏</h3>
+		</div>
+		<form action="">
+	<p>请输入邮箱地址：<input type="text" value="这是一个文本输入框"><br/>
+	<br/>
+	<span class="p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱地址请按要求格式输入</span></p>
+	<p>&nbsp;&nbsp;请输入密码:&nbsp<input type="password" value="请xx输入密码"/></p>
+	<p>请重复输入密码:&nbsp<input type="password" value="请重复输入密码"/></p>
+		<span class="p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码请为6-16位英文数字</span>
+	<br/>
+	<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别<input type="radio" name="sex" value="male">男
+			<input type="radio" name="sex" value="female">女
+		
+			
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城市<select name="city“>
+									<option value="">中山</option>
+									<option value="">上海</option>
+									<option value="">北京</option>
+									</select></p>
+		<br/>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爱好	<input type="checkbox" name="xz" value="yd">运动
+			<input type="checkbox" name="xz" value="ys">艺术
+			<input type="checkbox" name="xz" value="kx">科学
+			<br/></p>
+	<p><span style="vertical-align:top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人描述 </span><textarea cols="16" rows="8">这是一个多行输入框，输入您的个人描述
+	</textarea></p>
+	<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input  class="right2" type="submit" value="确认提交">
+	</form>
+</div>
+	
+	<div class="left">
+				<h3>另一篇文章一级标题</h3>
+			<h5>文章二级标题</h5>
+			<p>文章作者&nbsp文章发表时间</p>
+			<p>&nbsp&nbsp这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+			这是一个很长的段落，这是一个很长的段落，换行了<br/>
+			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落
+			<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长的段落，
+			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491151013162&di=49d09ab4e32eb556ad5369b52e60bda1&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%253D580%2Fsign%3Dadd7c79b5266d0167e199e20a72bd498%2Fb92640086e061d959e77736e7bf40ad162d9ca5e.jpg"
+	<br/>
+	<p>列表项目一<br/>
+		列表项目二<br/>	
+		列表项目三<br/>	
+	</p>
+</div>
+
+<div  class="left">
+		<h3><b>图片</b></h3>
+		
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="left1">
+<p>好看的图片</p>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490354825717&di=f0ed3967ee47f084df62b0fee35fff78&imgtype=0&src=http%3A%2F%2Fwww.caslon.cn%2Fpics%2Fallimg%2Fbd20163031.jpg">
+</div>
+<div class="clear"></div>
+<br/>
+</div>
+	
+
+
+<div class="left">
+		<h3>最后一篇文章一级标题</h3>
+		<h5>文章二级标题</h5>
+		<p>文章作者&nbsp文章发表时间</p>
+	<ol>
+	<li>排名1</li>
+		<li>排名2</li>
+			<li>排名3</li>
+	</ol>
+	<p>下面是一个表格</p>
+	
+	<table border="1" cellspacing="0" width="500px">
+	<tr bgcolor="black">
+	<td bordercolor="LightGrey"><span class="black">表头</span></td>
+	<td bordercolor="LightGrey"><span class="black">表头</span></td>
+	<td bordercolor="LightGrey"><span class="black">表头</span></td>
+	</p></tr>
+	
+	<tr>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey"><a href="#">操作</a></td>
+	</tr>
+	
+	<tr>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey"><a href="#">操作</a></td>
+	</tr>
+	
+	<tr>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey"><a href="#">操作</a></td>
+	</tr>
+	
+	<tr>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey">表内容单元格</td>
+	<td bordercolor="LightGrey"><a href="#">操作</a></td>
+	</tr>
+	
+	<tr bgcolor="gray"><span class="gray">
+	<td bordercolor="LightGrey"><span class="gray">总计</span></td>
+	<td colspan="2"  bordercolor="LightGrey"><span class="gray">1000</span></td>
+	</tr>
+	</table>
+
+	</div>
+
+
+<div id="footer">
+			<p>版权所有&copy;</p>
+</div>
+</div>
+</body>
+</html>
